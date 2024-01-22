@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // Set to an appropriate ECMAScript target for Node.js
+    "module": "CommonJS", // Use CommonJS modules for compatibility with Node.js
+    "outDir": "./dist", // Output directory for the compiled files
+    "strict": false, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enable interoperability between CommonJS and ES Modules via creation of namespace objects for all imports
+  },
+  "include": [
+    "./**/*"
+  ], // Include all files in the src directory
+  "exclude": [
+    "node_modules"
+  ] // Exclude the node_modules directory
+}
